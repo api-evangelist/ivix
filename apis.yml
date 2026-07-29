@@ -1,8 +1,17 @@
 aid: ivix
 name: IVIX
-description: 'IVIX is a company surfaced as a portfolio company of insight-partners and added to the API
-  Evangelist network as a stub for enrichment. Sector: government. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  IVIX is an AI-powered financial-intelligence platform that analyzes publicly
+  available data at scale to surface hidden and unreported business activity,
+  helping government tax authorities and law-enforcement agencies combat the
+  shadow economy, tax evasion, and financial crime. The platform ingests open
+  and third-party data to detect non-compliant businesses, quantify unreported
+  revenue (including short-term rentals and crypto markets), and map illicit
+  networks for enforcement teams. IVIX is a closed, government-facing product —
+  it is sold and deployed with authorities rather than exposed as a public
+  self-serve API — and it is ISO/IEC 27001:2022 certified for information
+  security. Backed by Insight Partners; headquartered in New York with former
+  IRS Commissioner Charles Rettig on its board of advisors.
 url: https://raw.githubusercontent.com/api-evangelist/ivix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +19,32 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/62718f9c6a2917932893207b/62ab75cacc9f58a4238382c4_ivix-og-image.jpg
 tags:
 - Company
 - Government
+- Tax
+- Compliance
+- Financial Crime
+- Fraud Detection
+- Artificial Intelligence
+- Data Analytics
+- Law Enforcement
+- Shadow Economy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,36 @@ maintainers:
 common:
 - type: Website
   url: https://www.ivix.ai/
+- type: Platform
+  url: https://www.ivix.ai/platform
+- type: Solutions
+  url: https://www.ivix.ai/solutions
+- type: About
+  url: https://www.ivix.ai/company/about
+- type: Blog
+  url: https://www.ivix.ai/resources/blog
+- type: Press
+  url: https://www.ivix.ai/resources/press
+- type: Research
+  url: https://www.ivix.ai/resources/research/overview-of-potential-tax-revenue-in-the-us-crypto-market
+- type: Support
+  url: https://www.ivix.ai/contact-us
+- type: SignUp
+  url: https://www.ivix.ai/book-my-demo
+- type: TermsOfService
+  url: https://www.ivix.ai/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.ivix.ai/privacy-policy
+- type: Compliance
+  url: https://www.ivix.ai/company/about
+- type: Conformance
+  url: conformance/ivix-conformance.yml
+- type: DomainSecurity
+  url: security/ivix-domain-security.yml
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ivix-ai
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

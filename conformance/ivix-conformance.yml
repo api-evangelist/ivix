@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.ivix.ai/company/about
+summary: >-
+  IVIX publicly states ISO/IEC 27001:2022 certification for its information
+  security management. No public API, OpenAPI, or cross-cutting API standards
+  (OAuth2/OIDC/RFC 9457/etc.) are published — IVIX is a closed platform sold to
+  government tax and law-enforcement authorities — so only the published
+  information-security compliance posture is asserted here.
+standards:
+  - id: iso-27001-2022
+    conforms: true
+    evidence: '"ISO/IEC 27001:2022 Certified" stated on https://www.ivix.ai/company/about'
+  - id: oauth2
+    conforms: false
+    evidence: no public OpenAPI or documented OAuth surface
+  - id: oidc
+    conforms: false
+  - id: rfc9457-problem-details
+    conforms: false
+    evidence: no public API/error surface
+  - id: fapi
+    conforms: false
+  - id: scim
+    conforms: false
